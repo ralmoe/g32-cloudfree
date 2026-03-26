@@ -3,7 +3,7 @@ Prototype for receiving temperature-data via wlan without needing the otto-wilde
 
 ## Prequisites
 
-You need to be able to manipulate dns-records within your network. Create an entry that resolves `socket.ottowilde.de` to a local machine or server.
+You need to be able to manipulate dns-records within your network. Create an entry that resolves `socket.ottowilde.de` to a local machine or server where the listener will run.
 
 *Be aware that the official app will not work anymore after creating a custom-dns-record.*
 

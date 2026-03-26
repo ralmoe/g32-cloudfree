@@ -30,12 +30,6 @@ def process_packet(data):
 
     # internal sensors (offset 06-13)
     print("  ZONES:")
-    zones = [
-        ("Zone 1 ", 6),
-        ("Zone 2 ", 8),
-        ("Zone 3 ", 10),
-        ("Zone 4 ", 12),
-    ]
     # for name, offset in zones:
     for i in range(4):
         offset = 6 + (i * 2)

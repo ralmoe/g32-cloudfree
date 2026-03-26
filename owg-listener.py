@@ -57,7 +57,7 @@ def run_server():
         s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         s.bind((HOST, PORT))
         s.listen(1)
-        print(f"Lausche auf {HOST}:{PORT}...")
+        print(f"LISTENING TO {HOST}:{PORT}...")
         while True:
             conn, addr = s.accept()
             with conn:

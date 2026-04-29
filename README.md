@@ -1,3 +1,5 @@
+This project was a proof of concept and is now discontinued. Please use this [HomeAssistant-integreation](https://github.com/ralmoe/otto-wilde-g32-cloudless-hass) instead.
+
 # g32-cloudfree
 Prototype for receiving temperature-data via wlan without needing the otto-wilde-cloud
 
